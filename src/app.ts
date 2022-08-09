@@ -15,7 +15,7 @@ app.post("/students", async (req: Request, res: Response) => {
     data: students,
     skipDuplicates: true
   });
-
+  // comentário do teste
   res.sendStatus(201); 
 });
 
