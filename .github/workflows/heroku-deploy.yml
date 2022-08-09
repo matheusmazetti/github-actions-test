@@ -1,10 +1,8 @@
 name: Deploy no Heroku
-
 on:
   push:
     branchs:
       - main
-
 jobs:
   HerokuDeploy:
     runs-on: ubuntu-latest
