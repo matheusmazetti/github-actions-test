@@ -15,7 +15,7 @@ app.post("/students", async (req: Request, res: Response) => {
     data: students,
     skipDuplicates: true
   });
-
+  //testando...
   res.sendStatus(201); 
 });
 
