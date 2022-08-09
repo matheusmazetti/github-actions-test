@@ -6,4 +6,4 @@ COPY . /usr/src/
 
 RUN npm i
 
-CMD ["npm", "run", "test"]
+CMD ["npm", "run", "dev"]
